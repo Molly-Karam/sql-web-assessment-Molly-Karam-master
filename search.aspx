@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="search.aspx.vb" Inherits="SQL_WebAssessment.search" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Search.aspx.vb" Inherits="SQL_WebAssessment.Search" %>
 
 <!DOCTYPE html>
 

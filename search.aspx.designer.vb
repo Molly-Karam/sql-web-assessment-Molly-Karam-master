@@ -12,7 +12,7 @@ Option Explicit On
 
 
 
-Partial Public Class search
+Partial Public Class Search
 
     '''<summary>
     '''form1 control.

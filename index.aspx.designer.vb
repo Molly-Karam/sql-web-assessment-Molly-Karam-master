@@ -12,40 +12,4 @@ Option Explicit On
 
 
 Partial Public Class index
-
-    '''<summary>
-    '''form1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-    '''<summary>
-    '''pnlLostporpertyform control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents pnlLostporpertyform As Global.System.Web.UI.WebControls.Panel
-
-    '''<summary>
-    '''txtName control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtName As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''txtItemFound control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtItemFound As Global.System.Web.UI.WebControls.TextBox
 End Class

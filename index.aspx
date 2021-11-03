@@ -10,15 +10,15 @@
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <meta name="keywords" content="LostProperty" />	<!-- add keywords -->
-    <meta name="description" content="A wbesite to find beloved things you have lost" />	<!-- add description content -->
-    <meta name="author" content="Molly Karam" />		<!-- Add your name to 'author' -->
+    <meta name="keywords" content="" />	<!-- add keywords -->
+    <meta name="description" content="" />	<!-- add description content -->
+    <meta name="author" content="" />		<!-- Add your name to 'author' -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Lost Property</title>
+    <title>St. Georges Restaurant</title>
 
     <!-- Links for css, bootstrap -->
-    <link href="css/Lost_Property_.css" rel="stylesheet" type="text/css"/>	<!-- edit the file name -->
+    <link href="css/Lost_Property.css" rel="stylesheet" type="text/css" />	<!-- edit the file name -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />	<!-- edit the file name -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -37,7 +37,7 @@
 				
 		    <!-- Logo goes here -->
 			
-		    <h1>New Zealand Lost Property</h1>
+		    <h1> Madisons Lost Property</h1>
 	    </div> <!-- End of navbar-header -->
 	
 	    <div class="container">  <!-- Top links start here -->
@@ -58,24 +58,10 @@
 
 	        <h1>Booking Form</h1>
 
-            <form id="form1" runat="server"> 
-
-
-                <asp:Panel ID="pnlLostporpertyform" runat="server" BackColor="#FF9999" style="margin-bottom: 0px">
-                    Name*:<br />
-                    <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
-                    <br />
-                    <br />
-                    Item Found*:<br />
-                    <asp:TextBox ID="txtItemFound" runat="server"></asp:TextBox>
-                    <br />
-                    <br />
-                </asp:Panel>
-
+            <form id="form1"runat="server"> 
+                Form Start
 
             </form>
-             <!-- End booking form -->
-	
 	    </div> <!-- Main content end  -->
 	   
     </div> <!-- container (around main div) end-->
