@@ -56,13 +56,90 @@
     <div class="container">
 	    <div class="main">
 
-	        <h1>Booking Form</h1>
+            <form id="form1" runat="server">
+            </form> 
 
-            <form id="form1"runat="server"> 
-                Form Start
+	        <h1>Lost Property Form</h1>
+                <asp:Panel ID="pnlLostpropertyForm" runat="server" BorderColor="#FF9999" BackColor="Aqua">
+                    Name<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtLostProperty" runat="server" BorderColor="#FF9999" Width="149px"></asp:TextBox>
+                    <br />
+                    <br />
+                    Item Found<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtItem" runat="server" Width="149px"></asp:TextBox>
+                    <br />
+                    <br />
+                    Time:<br />
+                    <asp:DropDownList ID="ddlTime" runat="server">
+                        <asp:ListItem>01:00</asp:ListItem>
+                        <asp:ListItem>01:30</asp:ListItem>
+                        <asp:ListItem>02:00</asp:ListItem>
+                        <asp:ListItem>02:30</asp:ListItem>
+                        <asp:ListItem>03:00</asp:ListItem>
+                        <asp:ListItem>03:30</asp:ListItem>
+                        <asp:ListItem>04:00</asp:ListItem>
+                        <asp:ListItem>04:30</asp:ListItem>
+                        <asp:ListItem>05:00</asp:ListItem>
+                        <asp:ListItem>05:30</asp:ListItem>
+                        <asp:ListItem>06:00</asp:ListItem>
+                        <asp:ListItem>06:30</asp:ListItem>
+                        <asp:ListItem>07:00</asp:ListItem>
+                        <asp:ListItem>07:30</asp:ListItem>
+                        <asp:ListItem>08:00</asp:ListItem>
+                        <asp:ListItem>08:30</asp:ListItem>
+                        <asp:ListItem>09:00</asp:ListItem>
+                        <asp:ListItem>09:30</asp:ListItem>
+                        <asp:ListItem>10:00</asp:ListItem>
+                        <asp:ListItem>10:30</asp:ListItem>
+                        <asp:ListItem>11:00</asp:ListItem>
+                        <asp:ListItem>11:30</asp:ListItem>
+                        <asp:ListItem>12:00</asp:ListItem>
+                        <asp:ListItem>12:30</asp:ListItem>
+                        <asp:ListItem>13:00</asp:ListItem>
+                        <asp:ListItem>13:30</asp:ListItem>
+                        <asp:ListItem>14:00</asp:ListItem>
+                        <asp:ListItem>14:30</asp:ListItem>
+                        <asp:ListItem>15:00</asp:ListItem>
+                        <asp:ListItem>15:30</asp:ListItem>
+                        <asp:ListItem>16:00</asp:ListItem>
+                        <asp:ListItem>16:30</asp:ListItem>
+                        <asp:ListItem>17:00</asp:ListItem>
+                        <asp:ListItem>17:30</asp:ListItem>
+                        <asp:ListItem>18:00</asp:ListItem>
+                        <asp:ListItem>18:30</asp:ListItem>
+                        <asp:ListItem>19:00</asp:ListItem>
+                        <asp:ListItem>19:30</asp:ListItem>
+                        <asp:ListItem>20:00</asp:ListItem>
+                        <asp:ListItem>20:30</asp:ListItem>
+                        <asp:ListItem>21:00</asp:ListItem>
+                        <asp:ListItem>21:30</asp:ListItem>
+                        <asp:ListItem>22:00</asp:ListItem>
+                        <asp:ListItem>22:30</asp:ListItem>
+                        <asp:ListItem>23:00</asp:ListItem>
+                        <asp:ListItem>23:30</asp:ListItem>
+                        <asp:ListItem>24:00</asp:ListItem>
+                        <asp:ListItem>24:30</asp:ListItem>
+                    </asp:DropDownList>
+                    <br />
+                    <br />
+                    Date(dd/mm/yyyy)<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtDate" runat="server" Width="149px"></asp:TextBox>
+                    <br />
+                    <br />
+                    Location<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtLocation" runat="server" Width="149px"></asp:TextBox>
+                    <br />
+                    <br />
+                    Phone<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtPhone" runat="server" Height="24px" Width="149px"></asp:TextBox>
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Button" />
+
+                </asp:Panel>
 
             </form>
-	    </div> <!-- Main content end  -->
+	    </div>
+        <!-- Main content end  -->
 	   
     </div> <!-- container (around main div) end-->
 
