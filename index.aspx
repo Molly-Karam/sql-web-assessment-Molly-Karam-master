@@ -57,19 +57,15 @@
 	    <div class="main">
 
             <form id="form1" runat="server">
-            </form> 
-
 	        <h1>Lost Property Form</h1>
                 <asp:Panel ID="pnlLostpropertyForm" runat="server" BorderColor="#FF9999" BackColor="Aqua">
-                    Name<sup>*</sup>:<br />
-                    <asp:TextBox ID="txtLostProperty" runat="server" BorderColor="#FF9999" Width="149px"></asp:TextBox>
-                    <br />
-                    <br />
-                    Item Found<sup>*</sup>:<br />
-                    <asp:TextBox ID="txtItem" runat="server" Width="149px"></asp:TextBox>
-                    <br />
-                    <br />
-                    Time:<br />
+                    <p>Name<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtLostProperty" runat="server" BorderColor="#FF9999" Width="149px"></asp:TextBox></p>
+                  
+                    <p>Item Found<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtItem" runat="server" Width="149px"></asp:TextBox></p> 
+                   
+                    <p>Time<sup>*</sup>:<br />
                     <asp:DropDownList ID="ddlTime" runat="server">
                         <asp:ListItem>01:00</asp:ListItem>
                         <asp:ListItem>01:30</asp:ListItem>
@@ -119,21 +115,18 @@
                         <asp:ListItem>23:30</asp:ListItem>
                         <asp:ListItem>24:00</asp:ListItem>
                         <asp:ListItem>24:30</asp:ListItem>
-                    </asp:DropDownList>
-                    <br />
-                    <br />
-                    Date(dd/mm/yyyy)<sup>*</sup>:<br />
-                    <asp:TextBox ID="txtDate" runat="server" Width="149px"></asp:TextBox>
-                    <br />
-                    <br />
-                    Location<sup>*</sup>:<br />
-                    <asp:TextBox ID="txtLocation" runat="server" Width="149px"></asp:TextBox>
-                    <br />
-                    <br />
-                    Phone<sup>*</sup>:<br />
-                    <asp:TextBox ID="txtPhone" runat="server" Height="24px" Width="149px"></asp:TextBox>
-                    <br />
-                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                    </asp:DropDownList></p>
+                
+                    <p>Date(dd/mm/yyyy)<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtDate" runat="server" Width="149px"></asp:TextBox></p>
+                 
+                    <p>Location<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtLocation" runat="server" Width="149px"></asp:TextBox></p>
+                   
+                    <p>Phone<sup>*</sup>:<br />
+                    <asp:TextBox ID="txtPhone" runat="server" Height="24px" Width="149px"></asp:TextBox></p>
+                  
+                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
 
                 </asp:Panel>
 
